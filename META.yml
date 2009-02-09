@@ -1,0 +1,38 @@
+---
+name: Task-Lingua-Any-Numbers
+version: 0.10
+author:
+  - 'Burak Gursoy <burak@cpan.org>'
+abstract: Installs all number to word modules.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Lingua::AF::Numbers: 0
+  Lingua::Any::Numbers: 0.25
+  Lingua::BG::Numbers: 0
+  Lingua::CS::Num2Word: 0
+  Lingua::DE::Num2Word: 0
+  Lingua::EN::Numbers: 0
+  Lingua::ES::Numeros: 0
+  Lingua::EU::Numbers: 0
+  Lingua::FR::Numbers: 0
+  Lingua::HU::Numbers: 0
+  Lingua::ID::Nums2Words: 0
+  Lingua::IT::Numbers: 0
+  Lingua::JA::Numbers: 0
+  Lingua::NL::Numbers: 0
+  Lingua::NO::Num2Word: 0
+  Lingua::PL::Numbers: 0
+  Lingua::PT::Nums2Word: 0
+  Lingua::SV::Num2Word: 0
+  Lingua::TR::Numbers: 0
+  Lingua::ZH::Numbers: 0
+provides:
+  Task::Lingua::Any::Numbers:
+    file: lib/Task/Lingua/Any/Numbers.pm
+    version: 0.10
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
