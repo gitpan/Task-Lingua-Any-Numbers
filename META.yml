@@ -1,12 +1,13 @@
 ---
 name: Task-Lingua-Any-Numbers
-version: 0.11
+version: 0.12
 author:
   - 'Burak Gursoy <burak@cpan.org>'
 abstract: Installs all number to word modules.
 license: perl
 resources:
-  license: ~
+  license: http://dev.perl.org/licenses/
+  repository: http://bitbucket.org/burak/cpan-task-lingua-any-numbers/
 requires:
   Lingua::AF::Numbers: 0
   Lingua::Any::Numbers: 0.25
@@ -28,11 +29,17 @@ requires:
   Lingua::SV::Num2Word: 0
   Lingua::TR::Numbers: 0
   Lingua::ZH::Numbers: 0
+build_requires:
+  Test::More: 0.40
 provides:
   Task::Lingua::Any::Numbers:
     file: lib/Task/Lingua/Any/Numbers.pm
-    version: 0.11
-generated_by: Module::Build version 0.31012
+    version: 0.12
+no_index:
+  directory:
+    - tools
+    - t
+generated_by: Module::Build version 0.32
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
