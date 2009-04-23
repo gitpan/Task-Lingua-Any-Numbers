@@ -2,7 +2,7 @@ package Task::Lingua::Any::Numbers;
 use strict;
 use vars qw( $VERSION );
 
-$VERSION = '0.12';
+$VERSION = '0.13';
 
 1;
 
@@ -20,8 +20,8 @@ None.
 
 =head1 DESCRIPTION
 
-This document describes version C<0.12> of C<Task::Lingua::Any::Numbers>
-released on C<18 April 2009>.
+This document describes version C<0.13> of C<Task::Lingua::Any::Numbers>
+released on C<23 April 2009>.
 
 This is a tool to install everything needed for a full L<Lingua::Any::Numbers>
 interface. See the L<Task> module for the rationale.

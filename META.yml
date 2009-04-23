@@ -1,6 +1,6 @@
 ---
 name: Task-Lingua-Any-Numbers
-version: 0.12
+version: 0.13
 author:
   - 'Burak Gursoy <burak@cpan.org>'
 abstract: Installs all number to word modules.
@@ -34,10 +34,11 @@ build_requires:
 provides:
   Task::Lingua::Any::Numbers:
     file: lib/Task/Lingua/Any/Numbers.pm
-    version: 0.12
+    version: 0.13
 no_index:
   directory:
-    - tools
+    - monolithic_version
+    - builder
     - t
 generated_by: Module::Build version 0.32
 meta-spec:
