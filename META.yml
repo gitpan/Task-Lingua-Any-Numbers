@@ -1,16 +1,29 @@
 ---
-name: Task-Lingua-Any-Numbers
-version: 0.14
+abstract: 'Installs all number to word modules.'
 author:
   - 'Burak Gursoy <burak@cpan.org>'
-abstract: Installs all number to word modules.
+build_requires:
+  Test::More: 0.40
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
 license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: http://bitbucket.org/burak/cpan-task-lingua-any-numbers/
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Lingua-Any-Numbers
+no_index:
+  directory:
+    - monolithic_version
+    - builder
+    - t
+provides:
+  Task::Lingua::Any::Numbers:
+    file: lib/Task/Lingua/Any/Numbers.pm
+    version: 0.16
 requires:
   Lingua::AF::Numbers: 0
-  Lingua::Any::Numbers: 0.25
+  Lingua::Any::Numbers: 0.40
   Lingua::BG::Numbers: 0
   Lingua::CS::Num2Word: 0
   Lingua::DE::Num2Word: 0
@@ -25,22 +38,12 @@ requires:
   Lingua::NL::Numbers: 0
   Lingua::NO::Num2Word: 0
   Lingua::PL::Numbers: 0
+  Lingua::PT::Nums2Ords: 0
   Lingua::PT::Nums2Words: 0
-  Lingua::SV::Num2Word: 0
+  Lingua::SV::Numbers: 0
   Lingua::TR::Numbers: 0
   Lingua::ZH::Numbers: 0
-build_requires:
-  Test::More: 0.40
-provides:
-  Task::Lingua::Any::Numbers:
-    file: lib/Task/Lingua/Any/Numbers.pm
-    version: 0.14
-no_index:
-  directory:
-    - monolithic_version
-    - builder
-    - t
-generated_by: Module::Build version 0.32
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://bitbucket.org/burak/cpan-task-lingua-any-numbers/
+version: 0.16

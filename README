@@ -33,6 +33,7 @@ DEPENDENCIES
    Lingua::JA::Numbers
    Lingua::NL::Numbers
    Lingua::PL::Numbers
+   Lingua::SV::Numbers
    Lingua::TR::Numbers
    Lingua::ZH::Numbers
    Lingua::CS::Num2Word
@@ -41,15 +42,15 @@ DEPENDENCIES
    Lingua::ID::Nums2Words
    Lingua::NO::Num2Word
    Lingua::PT::Nums2Word
-   Lingua::SV::Num2Word
+   Lingua::PT::Nums2Ords
    Lingua::Any::Numbers
 
 COPYRIGHT
 
-Copyright (c) 2009 Burak Gürsoy. All rights reserved.
+Copyright (c) 2009-2010 Burak Gürsoy. All rights reserved.
 
 LICENSE
 
 This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself, either Perl version 5.10.0 or, 
+it under the same terms as Perl itself, either Perl version 5.10.1 or, 
 at your option, any later version of Perl 5 you may have available.
