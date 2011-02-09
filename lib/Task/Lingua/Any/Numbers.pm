@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.16';
+$VERSION = '0.17';
 
 1;
 
@@ -21,8 +21,8 @@ None.
 
 =head1 DESCRIPTION
 
-This document describes version C<0.16> of C<Task::Lingua::Any::Numbers>
-released on C<12 October 2010>.
+This document describes version C<0.17> of C<Task::Lingua::Any::Numbers>
+released on C<10 February 2011>.
 
 This is a tool to install everything needed for a full L<Lingua::Any::Numbers>
 interface. See the L<Task> module for the rationale.
@@ -69,7 +69,7 @@ Burak Gursoy <burak@cpan.org>.
 
 =head1 COPYRIGHT
 
-Copyright 2009 - 2010 Burak Gursoy. All rights reserved.
+Copyright 2009 - 2011 Burak Gursoy. All rights reserved.
 
 =head1 LICENSE
 
